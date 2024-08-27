@@ -1,3 +1,9 @@
-export default function Page(){
-    return <h1>Hello Next!</h1>
+import Navigation from "../components/navigation";
+
+export default function Page() {
+    return (
+        <div>
+            <Navigation />
+        </div>
+    );
 }
