@@ -1,3 +1,13 @@
-export default function NotFound(){
-    return <h1>NOT FOUND 404</h1>
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Not found",
+};
+
+export default function NotFound() {
+    return (
+        <div>
+            <h1>Not found!</h1>
+        </div>
+    );
 }
